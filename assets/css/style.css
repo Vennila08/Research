@@ -46,7 +46,8 @@ body {
   font-size:40px;
   position: absolute;
   transform: translate(-50%, -50%);
-  margin-top: -180px;
+  /* margin-top:10 px;
+  column-gap: 10px; */
   margin-left: 750px;
   text-align: center;
   font-weight:900 ;
@@ -59,17 +60,8 @@ body {
     font-size: 30px;
     text-align:center;
     margin-left: 170px;
-    /* align-items: center;
-    justify-content: center;
-    font-weight: 600;
-    width: 100%;
-    margin-left:350px; */
-    /* margin-left: 0;
-   right: -630px; */
     margin-top: -200px;
-    
- 
-    width:100vw ;
+    width:100% ;
   
   }
 }
@@ -102,8 +94,9 @@ body {
 }}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 body{
-  overflow: hidden;
+  overflow-x: hidden; 
   max-width: 100%;
+  width:100%;
 }
 
   }
@@ -115,6 +108,8 @@ body{
     }
     body{
       overflow-x: hidden;
+      max-width: 100%;
+  width:100%;
     }
    
     
@@ -134,7 +129,7 @@ body{
         .welcome >h3{
           text-align: center;
           font-size: 25px;
-          display:b;
+        
           /* max-width: 100%; */
         }
   
@@ -233,11 +228,11 @@ body{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+/* 
 img {
   max-width: 100%;
   height: 100vh;
-}
+} */
 
 a:focus,
 input:focus,
@@ -2016,7 +2011,7 @@ hero area css
   padding: 280px 0 320px;
 } */
 
-@media only screen and (min-width: 1400px) {
+/* @media only screen and (min-width: 1400px) {
   .hero-area {
     padding: 200px 0;
   }
@@ -2044,7 +2039,7 @@ hero area css
   .hero-area {
     padding: 220px;
   }
-}
+} */
 
 .hero-area::after {
   content: '';
@@ -2794,3 +2789,83 @@ footer css
   color: #F2A92C;
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/* Existing styles retained */
+
+body {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+#home {
+  width: 100%;
+  max-width: 100vw;
+  display: block;
+  position: relative;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* @media only screen and (max-width: 767px) {
+  #home {
+     background: white !important;
+    background-image: none !important; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  #home .content {
+    text-align: center;
+    width: 100%;
+    color: black; /* Ensure text is visible on white background 
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
